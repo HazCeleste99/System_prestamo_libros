@@ -1,20 +1,14 @@
-<?php 
-	/******************************
- * url = controller/method/param[]
- * Core class 
- * routing class
- *****************************/
+<?php
 
 
-class Core
-{
+class Ruta{
 
     private $controlador = 'Pages';
     private $metodo = 'index';
     private $parametros = [];
 
     public function __construct(){
-        $url = $this->url() ? $this->url() : [0];
+        $url = $this->url() ? $his->url() : [0];
 
         if(file_exists('../app/Controllers/'.ucwords($url[0]).'.php')):
             $this->controlador= ucwords($url[0]);
@@ -47,3 +41,5 @@ class Core
 
     }
 }
+
+

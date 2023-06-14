@@ -3,8 +3,8 @@
 //app link
 
 define('APPROOT', dirname(dirname(__FILE__)));
-define('URLROOT', 'http://localhost/System_turismo-/');
-define('APPNAME', 'turismo');
+define('URLROOT', 'http://localhost/System_PrestamoLibros');
+define('APPNAME', 'PrestamoLibros');
 
 
 
